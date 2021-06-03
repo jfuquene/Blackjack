@@ -1,7 +1,10 @@
-
-
-function helloWorld(){
-    return "Hello World"
+let player = {
+    name: "John",
+    chips: 500
 }
 
-helloWorld()
+let cards = []
+let sum = 0
+
+let hasBlackJack = false
+let isAlive = false
